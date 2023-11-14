@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;                /*background color is our choice to choose based on our needs*/
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+ h2{
+    background-color:  rosybrown;
+    color: black;
+    padding: 10px;
+    text-align: center
+}
+p{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.post{
+    border: 2px solid #ca2434;
+    border-width: 5px;    /* here we decorate the post because the whole class is based on the post if we give date instead of post it will border the date only */
+    padding: 20px;
+    margin: 10px;
+}
+.date{
+    border: 1px solid blueviolet;
+    color:black;
+    padding: 20px;
+    border-width: 5px;              /*this will size the border line of date*/
+    max-width: 100px;               /*width will be resize the border of date*/
+}
+
+
